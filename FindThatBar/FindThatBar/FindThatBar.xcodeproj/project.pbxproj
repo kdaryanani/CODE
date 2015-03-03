@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CB5CF6F1A7F526000736570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5CF6E1A7F526000736570 /* main.m */; };
+		2CB5CF721A7F526000736570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5CF711A7F526000736570 /* AppDelegate.m */; };
+		2CB5CF751A7F526000736570 /* FindThatBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5CF731A7F526000736570 /* FindThatBar.xcdatamodeld */; };
+		2CB5CF781A7F526000736570 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5CF771A7F526000736570 /* ViewController.m */; };
+		2CB5CF7B1A7F526000736570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB5CF791A7F526000736570 /* Main.storyboard */; };
+		2CB5CF7D1A7F526000736570 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB5CF7C1A7F526000736570 /* Images.xcassets */; };
+		2CB5CF801A7F526000736570 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB5CF7E1A7F526000736570 /* LaunchScreen.xib */; };
+		2CB5CF8C1A7F526000736570 /* FindThatBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5CF8B1A7F526000736570 /* FindThatBarTests.m */; };
+		2CB5CFA11A7F53CE00736570 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF951A7F53CE00736570 /* AVFoundation.framework */; };
+		2CB5CFA21A7F53CE00736570 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF961A7F53CE00736570 /* CoreData.framework */; };
+		2CB5CFA31A7F53CE00736570 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF971A7F53CE00736570 /* CoreLocation.framework */; };
+		2CB5CFA41A7F53CE00736570 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF981A7F53CE00736570 /* CoreText.framework */; };
+		2CB5CFA51A7F53CE00736570 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF991A7F53CE00736570 /* GLKit.framework */; };
+		2CB5CFA61A7F53CE00736570 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF9A1A7F53CE00736570 /* ImageIO.framework */; };
+		2CB5CFA71A7F53CE00736570 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF9B1A7F53CE00736570 /* libc++.dylib */; };
+		2CB5CFA81A7F53CE00736570 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF9C1A7F53CE00736570 /* libicucore.dylib */; };
+		2CB5CFA91A7F53CE00736570 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF9D1A7F53CE00736570 /* libz.dylib */; };
+		2CB5CFAA1A7F53CE00736570 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF9E1A7F53CE00736570 /* OpenGLES.framework */; };
+		2CB5CFAB1A7F53CE00736570 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CF9F1A7F53CE00736570 /* QuartzCore.framework */; };
+		2CB5CFAC1A7F53CE00736570 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5CFA01A7F53CE00736570 /* SystemConfiguration.framework */; };
+		2CB5CFAE1A7F5B8000736570 /* bar-galaxy-free-cocktails-the_461835.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CB5CFAD1A7F5B8000736570 /* bar-galaxy-free-cocktails-the_461835.jpg */; };
+		2CC80E7E1A7F6C7500E66CDA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC80E7D1A7F6C7500E66CDA /* TableViewController.m */; };
+		2CC80ECE1A80257700E66CDA /* UITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC80ECD1A80257700E66CDA /* UITableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CB5CF861A7F526000736570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CB5CF611A7F526000736570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CB5CF681A7F526000736570;
+			remoteInfo = FindThatBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CB5CF691A7F526000736570 /* FindThatBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindThatBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB5CF6D1A7F526000736570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB5CF6E1A7F526000736570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CB5CF701A7F526000736570 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CB5CF711A7F526000736570 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CB5CF741A7F526000736570 /* FindThatBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindThatBar.xcdatamodel; sourceTree = "<group>"; };
+		2CB5CF761A7F526000736570 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CB5CF771A7F526000736570 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CB5CF7A1A7F526000736570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CB5CF7C1A7F526000736570 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CB5CF7F1A7F526000736570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CB5CF851A7F526000736570 /* FindThatBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindThatBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB5CF8A1A7F526000736570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB5CF8B1A7F526000736570 /* FindThatBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindThatBarTests.m; sourceTree = "<group>"; };
+		2CB5CF951A7F53CE00736570 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2CB5CF961A7F53CE00736570 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CB5CF971A7F53CE00736570 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2CB5CF981A7F53CE00736570 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2CB5CF991A7F53CE00736570 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2CB5CF9A1A7F53CE00736570 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2CB5CF9B1A7F53CE00736570 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		2CB5CF9C1A7F53CE00736570 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		2CB5CF9D1A7F53CE00736570 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2CB5CF9E1A7F53CE00736570 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2CB5CF9F1A7F53CE00736570 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2CB5CFA01A7F53CE00736570 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2CB5CFAD1A7F5B8000736570 /* bar-galaxy-free-cocktails-the_461835.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bar-galaxy-free-cocktails-the_461835.jpg"; sourceTree = "<group>"; };
+		2CC80E7C1A7F6C7500E66CDA /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2CC80E7D1A7F6C7500E66CDA /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2CC80ECC1A80257700E66CDA /* UITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewController.h; sourceTree = "<group>"; };
+		2CC80ECD1A80257700E66CDA /* UITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CB5CF661A7F526000736570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB5CFA11A7F53CE00736570 /* AVFoundation.framework in Frameworks */,
+				2CB5CFA21A7F53CE00736570 /* CoreData.framework in Frameworks */,
+				2CB5CFA31A7F53CE00736570 /* CoreLocation.framework in Frameworks */,
+				2CB5CFA41A7F53CE00736570 /* CoreText.framework in Frameworks */,
+				2CB5CFA51A7F53CE00736570 /* GLKit.framework in Frameworks */,
+				2CB5CFA61A7F53CE00736570 /* ImageIO.framework in Frameworks */,
+				2CB5CFA71A7F53CE00736570 /* libc++.dylib in Frameworks */,
+				2CB5CFA81A7F53CE00736570 /* libicucore.dylib in Frameworks */,
+				2CB5CFA91A7F53CE00736570 /* libz.dylib in Frameworks */,
+				2CB5CFAA1A7F53CE00736570 /* OpenGLES.framework in Frameworks */,
+				2CB5CFAB1A7F53CE00736570 /* QuartzCore.framework in Frameworks */,
+				2CB5CFAC1A7F53CE00736570 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB5CF821A7F526000736570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB5CF601A7F526000736570 = {
+			isa = PBXGroup;
+			children = (
+				2CB5CF951A7F53CE00736570 /* AVFoundation.framework */,
+				2CB5CF961A7F53CE00736570 /* CoreData.framework */,
+				2CB5CF971A7F53CE00736570 /* CoreLocation.framework */,
+				2CB5CF981A7F53CE00736570 /* CoreText.framework */,
+				2CB5CF991A7F53CE00736570 /* GLKit.framework */,
+				2CB5CF9A1A7F53CE00736570 /* ImageIO.framework */,
+				2CB5CF9B1A7F53CE00736570 /* libc++.dylib */,
+				2CB5CF9C1A7F53CE00736570 /* libicucore.dylib */,
+				2CB5CF9D1A7F53CE00736570 /* libz.dylib */,
+				2CB5CF9E1A7F53CE00736570 /* OpenGLES.framework */,
+				2CB5CF9F1A7F53CE00736570 /* QuartzCore.framework */,
+				2CB5CFA01A7F53CE00736570 /* SystemConfiguration.framework */,
+				2CB5CF6B1A7F526000736570 /* FindThatBar */,
+				2CB5CF881A7F526000736570 /* FindThatBarTests */,
+				2CB5CF6A1A7F526000736570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CB5CF6A1A7F526000736570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5CF691A7F526000736570 /* FindThatBar.app */,
+				2CB5CF851A7F526000736570 /* FindThatBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CB5CF6B1A7F526000736570 /* FindThatBar */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5CF701A7F526000736570 /* AppDelegate.h */,
+				2CB5CF711A7F526000736570 /* AppDelegate.m */,
+				2CC80E7C1A7F6C7500E66CDA /* TableViewController.h */,
+				2CC80ECC1A80257700E66CDA /* UITableViewController.h */,
+				2CC80ECD1A80257700E66CDA /* UITableViewController.m */,
+				2CC80E7D1A7F6C7500E66CDA /* TableViewController.m */,
+				2CB5CF761A7F526000736570 /* ViewController.h */,
+				2CB5CF771A7F526000736570 /* ViewController.m */,
+				2CB5CF791A7F526000736570 /* Main.storyboard */,
+				2CB5CF7C1A7F526000736570 /* Images.xcassets */,
+				2CB5CF7E1A7F526000736570 /* LaunchScreen.xib */,
+				2CB5CF731A7F526000736570 /* FindThatBar.xcdatamodeld */,
+				2CB5CF6C1A7F526000736570 /* Supporting Files */,
+			);
+			path = FindThatBar;
+			sourceTree = "<group>";
+		};
+		2CB5CF6C1A7F526000736570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5CFAD1A7F5B8000736570 /* bar-galaxy-free-cocktails-the_461835.jpg */,
+				2CB5CF6D1A7F526000736570 /* Info.plist */,
+				2CB5CF6E1A7F526000736570 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CB5CF881A7F526000736570 /* FindThatBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5CF8B1A7F526000736570 /* FindThatBarTests.m */,
+				2CB5CF891A7F526000736570 /* Supporting Files */,
+			);
+			path = FindThatBarTests;
+			sourceTree = "<group>";
+		};
+		2CB5CF891A7F526000736570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5CF8A1A7F526000736570 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CB5CF681A7F526000736570 /* FindThatBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB5CF8F1A7F526000736570 /* Build configuration list for PBXNativeTarget "FindThatBar" */;
+			buildPhases = (
+				2CB5CF651A7F526000736570 /* Sources */,
+				2CB5CF661A7F526000736570 /* Frameworks */,
+				2CB5CF671A7F526000736570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindThatBar;
+			productName = FindThatBar;
+			productReference = 2CB5CF691A7F526000736570 /* FindThatBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CB5CF841A7F526000736570 /* FindThatBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB5CF921A7F526000736570 /* Build configuration list for PBXNativeTarget "FindThatBarTests" */;
+			buildPhases = (
+				2CB5CF811A7F526000736570 /* Sources */,
+				2CB5CF821A7F526000736570 /* Frameworks */,
+				2CB5CF831A7F526000736570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB5CF871A7F526000736570 /* PBXTargetDependency */,
+			);
+			name = FindThatBarTests;
+			productName = FindThatBarTests;
+			productReference = 2CB5CF851A7F526000736570 /* FindThatBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CB5CF611A7F526000736570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Karan Daryanani";
+				TargetAttributes = {
+					2CB5CF681A7F526000736570 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2CB5CF841A7F526000736570 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2CB5CF681A7F526000736570;
+					};
+				};
+			};
+			buildConfigurationList = 2CB5CF641A7F526000736570 /* Build configuration list for PBXProject "FindThatBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CB5CF601A7F526000736570;
+			productRefGroup = 2CB5CF6A1A7F526000736570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CB5CF681A7F526000736570 /* FindThatBar */,
+				2CB5CF841A7F526000736570 /* FindThatBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CB5CF671A7F526000736570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB5CFAE1A7F5B8000736570 /* bar-galaxy-free-cocktails-the_461835.jpg in Resources */,
+				2CB5CF7B1A7F526000736570 /* Main.storyboard in Resources */,
+				2CB5CF801A7F526000736570 /* LaunchScreen.xib in Resources */,
+				2CB5CF7D1A7F526000736570 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB5CF831A7F526000736570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CB5CF651A7F526000736570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB5CF721A7F526000736570 /* AppDelegate.m in Sources */,
+				2CC80ECE1A80257700E66CDA /* UITableViewController.m in Sources */,
+				2CB5CF6F1A7F526000736570 /* main.m in Sources */,
+				2CB5CF781A7F526000736570 /* ViewController.m in Sources */,
+				2CC80E7E1A7F6C7500E66CDA /* TableViewController.m in Sources */,
+				2CB5CF751A7F526000736570 /* FindThatBar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB5CF811A7F526000736570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB5CF8C1A7F526000736570 /* FindThatBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CB5CF871A7F526000736570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CB5CF681A7F526000736570 /* FindThatBar */;
+			targetProxy = 2CB5CF861A7F526000736570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CB5CF791A7F526000736570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CB5CF7A1A7F526000736570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CB5CF7E1A7F526000736570 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CB5CF7F1A7F526000736570 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CB5CF8D1A7F526000736570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CB5CF8E1A7F526000736570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CB5CF901A7F526000736570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindThatBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CB5CF911A7F526000736570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindThatBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CB5CF931A7F526000736570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindThatBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindThatBar.app/FindThatBar";
+			};
+			name = Debug;
+		};
+		2CB5CF941A7F526000736570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindThatBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindThatBar.app/FindThatBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CB5CF641A7F526000736570 /* Build configuration list for PBXProject "FindThatBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB5CF8D1A7F526000736570 /* Debug */,
+				2CB5CF8E1A7F526000736570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CB5CF8F1A7F526000736570 /* Build configuration list for PBXNativeTarget "FindThatBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB5CF901A7F526000736570 /* Debug */,
+				2CB5CF911A7F526000736570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CB5CF921A7F526000736570 /* Build configuration list for PBXNativeTarget "FindThatBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB5CF931A7F526000736570 /* Debug */,
+				2CB5CF941A7F526000736570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CB5CF731A7F526000736570 /* FindThatBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CB5CF741A7F526000736570 /* FindThatBar.xcdatamodel */,
+			);
+			currentVersion = 2CB5CF741A7F526000736570 /* FindThatBar.xcdatamodel */;
+			path = FindThatBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CB5CF611A7F526000736570 /* Project object */;
+}
